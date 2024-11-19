@@ -45,12 +45,15 @@ const TicketCard = ({ ticket, users, groupBy }) => {
         <h3>{ticket.title}</h3>
       </div>
       <div className="ticket-tag">
-            <div className='aaaa'>
+        {(groupBy !== 'priority')?
+        
+        <div className='aaaa'>
 
         {groupBy !== 'priority' && (
             <img src={priorityIcons[ticket.priority]} alt="priority" className="priority-icon" />
             )}
             </div>
+        :<div></div>}
      
            
             <div className='bbbb'>

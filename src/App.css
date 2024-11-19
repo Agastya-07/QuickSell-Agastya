@@ -247,7 +247,7 @@
   border: 1px solid #e7e5e0;    /* Default border style */
   border-radius: 3px;           /* Rounded corners */
   align-items: center;          /* Align content vertically */
-  padding: absolute; ;        
+  padding: 4px ;        
   height:33px; 
   margin:5px;   /* Equal padding for balance */
   box-sizing: border-box;       /* Include border and padding in width */
