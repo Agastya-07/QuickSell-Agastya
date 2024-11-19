@@ -1,6 +1,6 @@
 import React from 'react';
 import DisplayBoard from './components/DisplayBoard';
-import './App.css';
+import './App.css'
 
 const App = () => {
   return (

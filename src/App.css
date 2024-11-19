@@ -1,7 +1,7 @@
 .App {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color:#F9F6EE 
+  background-color:#F9F6EE ;
 }
 .body{
   background-color: #f0ead9 ;
@@ -84,7 +84,6 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  /* background-color:#e7e5e0; */
 }
 
 .ticket-card {
@@ -232,31 +231,31 @@
   display: flex;
   align-items: center;
   margin-top: 10px;
-  /* justify-content: space-between; */
+  
   
   gap:4px;
 }
 .aaaa {
-  border: 1px solid #e7e5e0;    /* Default border style */
-  border-radius: 3px;           /* Rounded corners */
-  padding: 4px;                 /* Internal padding */
-  width: 30px;                  /* Default width for the left-side element */
-  box-sizing: border-box;       /* Include border and padding in width */
+  border: 1px solid #e7e5e0;    
+  border-radius: 3px;           
+  padding: 4px;                 
+  width: 30px;                  
+  box-sizing: border-box;      
 }
 
 
 .bbbb {
-  display: flex;                /* Enable Flexbox */
-  border: 1px solid #e7e5e0;    /* Default border style */
-  border-radius: 3px;           /* Rounded corners */
-  align-items: center;          /* Align content vertically */
+  display: flex;               
+  border: 1px solid #e7e5e0;  
+  border-radius: 3px;           
+  align-items: center;          
   padding: 4px ;        
   height:33px; 
-  margin:5px;   /* Equal padding for balance */
-  box-sizing: border-box;       /* Include border and padding in width */
+  margin:5px;   
+  box-sizing: border-box;      
 }
 
-/* Media Query: Adjust width on smaller screens */
+
 
 
 
@@ -264,7 +263,7 @@
 .tag-icon-div{
   display: flex-column;
   align-items: center;
-} */
+} 
 
 .ticket-status {
   display: flex;
